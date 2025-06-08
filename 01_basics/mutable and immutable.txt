@@ -1,0 +1,7 @@
+1. Immutable
+If a data type is immutable.. that means, we can't change anything in the thing it is refrencing to in the memory. But we can chnage the refrence itself. 
+ 
+- example: string is immutable in python
+        a = "hello"  // a refrence to a object in memory with data "hello"
+        a = "world"  // changing refrence to a new object in memory
+        a[0] = h    // Error, string is immutable
