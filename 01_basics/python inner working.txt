@@ -1,0 +1,25 @@
+Python inner working:
+
+1. Run python
+Terminal> python path_to_file/file.py    
+- (since some mac has python 2 default installed. so for that, we specifically specify python version to use (python 3 here) python -> python3)
+
+2. what happens on this command
+code file  ==>  byte code (mostly hidden)  ==>  Python VM (virtual machine)
+- (byte code is mostly hidden, but visible in certain cases like, when we use import in a file. __pycache__ is visible after that, which has a .pyc file that is the byte code)
+- byte code that goes to python virtual machine, where it runs
+- byte code is not machine code, it is python specific interpretation
+
+3. Compiles to byte code
+- which is low level & platform independent (ie, byte code can run anywhere where a VM is present)
+- byte code runs faster
+- .pyc is compiled python or also known as (frozen binaries)
+- each pyc name has two terms.. source change and python version
+- .exe is truly independent (requires frozen binaries)
+
+
+4. Python virtual machine (PVM)
+- a small software, that has a loop continously going on, to which if we fed a file, the file gets executed. 
+- code loop to execute byte code
+- Run time engine
+- ALso known as python interpreter
