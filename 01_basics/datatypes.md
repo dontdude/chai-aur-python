@@ -24,3 +24,11 @@
 4. tuple is like a list (accessing and defining), just we use paranthesis here (), instead of brackets []
    example: myTup = (10, 20, 30, 40)
             now myTyp[0] => returns 10
+
+
+
+# Numbers in depth:
+
+1. int(4.5) -> 4, float(4) -> 4.0
+
+2. 'hello' * 3 -> hellohellohello
