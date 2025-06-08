@@ -1,0 +1,18 @@
+1. To open python shell -> enter (python or python3 in mac) -> press enter (python shell now live in terminal)
+
+2. To exit -> ctrl + D (terminates) or ctrl + z (suspend) 
+
+3. you can use this python shell.. to run small python code
+
+// Module
+1. module is nothing but other written code.. that we import and use
+
+2. for known module like os and others.. python knows where it import it from... so no need to mention the from, just use "import os"
+
+3. After each change in a module code, the module importing file.. doesn't know about that. It need to reload.. which can be done using a module for reload too. 
+
+
+quick note: 
+- variable -> attribute
+- undefine error -> name error
+- after enter -> press tab for proper identation
