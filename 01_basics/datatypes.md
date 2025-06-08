@@ -15,3 +15,12 @@
 - Funtions, modules, classes
 
 - Advance: Decorators, Generators, Iterators, MetaProgramming
+
+
+- Quick Note: 
+1. for power => like 2 (the power 4) we can do 2 ** 4
+2. array[-1] => last element, array[-2] => 2nd last element (or for string)
+3. array[a:b] => a index included , b index not included (or for string)
+4. tuple is like a list (accessing and defining), just we use paranthesis here (), instead of brackets []
+   example: myTup = (10, 20, 30, 40)
+            now myTyp[0] => returns 10
